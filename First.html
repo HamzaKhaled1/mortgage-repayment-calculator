@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="First.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <div class="main-body">
+      <div>
+        <span class="top">
+        <span id="topic">Mortgage Calculator</span> &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 
+        &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160
+         
+        <a href="#" id="clear-all"><small>Clear All</small></a>
+      </span>
+       <br /><br />
+        <form id="form">
+          <label for="Mortgage-Amount">Mortgage Amount</label><br /><br />
+          <span class="spaninput1">
+            <small style="opacity: 80%; margin: 10px 10px; background-color: #e4f4fc">€</small>
+          <input
+            name="Mortgage Amount"
+            id="Mortgage-Amount"
+            type="text"
+            required
+            onblur="validatefun(this)"
+            
+          />
+        </span>
+          <span id="mortmsg"></span>
+          <br /><br />
+          <span class="inputs">
+            <span id="Mortgage-Term">
+              <label for="Mortgage Term">Mortgage Term</label><br /><br />
+              <span class="spaninput2">
+              <input
+                type="text"
+                required
+                name="Mortgage Term"
+                id="Mortgage Term"
+               /> <small class="years">years</small> </span>
+            </span>
+            <span>
+              <label for="Interest Rate">Interest Rate</label><br /> <br />
+              <span class="spaninput3">
+              <input
+                type="number"
+                required
+                name="Interest Rate"
+                id="Interest Rate"
+              /> <small style="opacity: 80%; margin: 10px 10px;">%</small>
+            </span>
+            </span>
+          </span>
+          <br />
+          <br />
+          <div class="payment">
+            <small id="options-name">Mortgage Type</small>
+            <br/> <br/>
+           <div class="option1"> 
+            <input
+              type="radio"
+              name="Mortgage Type"
+              id="Repayment"
+              checked
+            />
+            <label for="Repayment">Repayment</label></div>
+            <br />
+            <div id="option2">
+            <input type="radio" name="Mortgage Type" id="Interest Only" />
+            <label for="Interest Only">Interest Only</label>
+          </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <!-- <input class="submit" type="submit" value= <i class="fa-solid fa-calculator"></i>Calculate Repayments/> -->
+          <button id="submit">
+            <i class="fa-solid fa-calculator"></i>&#160 &#160 Calculate Repayments
+          </button>
+        </form>
+      </div>
+      <div class="side" id="side">
+        <div id="sidecontent">
+        <img src="logo.jpg" alt="logo" /> <br />
+        Results shown here <br />
+        <small class="side-mess"
+          >Complete the form and click "calculate repayments" to see what your
+          monthly repayments would be.</small
+        >
+        
+      </div>
+    </div>
+    <script src="First.js" />
+  </body>
+</html>

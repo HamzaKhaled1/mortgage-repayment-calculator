@@ -1,0 +1,237 @@
+body{
+    background-color: rgba(227,244,252,255);
+    }
+    .main-body{
+        font-size: larger;
+        margin-top: 4%;
+        margin-left: 16%;
+        background-color: white;
+        color: rgba(35,56,69,255);
+        border-style: solid;
+        border-radius: 1.5%;
+        border-color: white;
+        display: inline-flex;
+        /* padding-bottom: 10%; */
+        border-top-right-radius: 4%;
+        border-bottom-right-radius: 4%;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .top{
+        display: inline-flex;
+    }
+    #topic{
+        padding-top: 16px;
+        padding-left: 10px;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    .inputs{
+        display: inline-flex;
+        padding-right: 10px;
+    }
+    /* rgba(19,48,64,255); */
+    .side{
+        background-color: rgba(19,48,64,255);
+        color: white;
+        width: 50%;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left:auto;
+        border-bottom-left-radius: 14%;
+        border-top-right-radius: 4%;
+        border-bottom-right-radius: 4%;
+        width: 370px;
+    }
+    #text-1{
+        font-weight: bolder;
+        font-size:24px ;
+        margin-bottom: 4px;
+    }
+    #above{
+        margin-top: 14px;
+        margin-bottom: 70px;
+    }
+    #bottom{
+        border-style: solid;
+        border-color: rgba(19,48,64,255);
+        background-color: #0e2431;
+        border-radius: 7%;
+        margin-bottom: auto;
+        border-top: 6px solid #c4cf00;
+        padding: 1em 2em;
+    }
+    #div1 #textnode1{
+    margin: 1em;
+    opacity: 50%;
+    font-size: large;
+    margin-bottom: 4px;
+    }
+    #div1 #totalspan{
+        color: #cad400;
+        font-size: 70px;
+        opacity: 100%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    #div2{
+        font-weight: lighter;
+        font-size: 16px;
+    }
+    #div2 #textnode2{
+        opacity: 70%;
+        margin-left:18px; ;
+    }
+    #div2 #total2span{
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+        margin: 10px;
+    }
+    .side-mess{
+        opacity:40% ;
+    }
+    #text-1{
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 2em;
+    }
+    #text-2{
+        opacity:40% ;
+        font-weight: lighter;
+        font-size: medium;
+    }
+    #hr{
+        opacity: 60%;
+        width: 320px;
+    }
+    img{
+        margin-left: 110px;
+        margin-bottom:20px ;
+    }
+    #submit {
+        margin: 1em 3em;
+        background-color:  #c4cf00;
+        color: black; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 50px; 
+        font-size: 16px;
+        font-weight: bold; 
+        display: inline-flex; 
+        align-items: center; 
+        cursor: pointer;  
+    }
+    #submit.icon {
+        margin-right: 10px; 
+    }
+    #submit:hover {
+        /* background-color: #b2c100; Slightly darker background on hover */
+    }
+    .reset{ background-color: white;
+            color: rgb(84, 84, 238);
+        font-size:small;
+        font-weight:700
+    }
+    #clear-all{
+    opacity: 90%;
+    color: rgba(105,116,119,255);
+    margin-top: 22px;
+    }
+    #button {
+        margin-left: 30px;
+        padding-right: 40px;
+        background-color:#d9df44; /* Adjust the color to match the button */
+        color: #000; /* Text color */
+        border: none;
+        border-radius: 50px; /* Rounded corners */
+        /* padding: 10px 40px; Adjust the padding for size */
+        font-size: 16px; /* Adjust font size */
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        font-family: Arial, sans-serif; /* Adjust font family */
+    }
+    #button:hover {
+        background-color: #c4cf00; /* Slightly darker shade for hover */
+    }
+    #button img {
+        margin-right: 8px; /* Space between icon and text */
+    }
+    .option1{
+        border-style: groove;
+        border-color: black;
+        border-radius: 4%;
+        border-width: thin;
+        margin-bottom: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        font-weight: 600;
+        margin: 0px 10px;
+        padding: 10px 0px;
+    }
+    #option2{
+        border-style: groove;
+        border-color: black;
+        border-radius: 4%;
+        border-width: thin;
+        margin-bottom: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        font-weight: 600;
+        margin: 0px 10px;
+        padding: 10px 0px
+    }
+    #Mortgage-Term{
+        margin-right: 20px;
+    }
+    #options-name{
+        margin-bottom:6px;
+        font-weight:500;
+        font-size: large;
+    }
+    label{
+        font-weight:500
+    }
+    .spaninput1{
+        margin-left: 10px;
+        display: flex;
+        border-style: solid;
+        border-width: thin;
+        background-color: #e4f4fc;
+        border-radius: 4%;
+        margin-right: 270px;
+        width: 95.4%;
+        
+    }
+    .spaninput1 #Mortgage-Amount{
+        width: 100%;
+    }
+    .spaninput2{
+        display: flex;
+        border-style: solid;
+        border-width: thin;
+        background-color: #e4f4fc;
+        border-radius: 4%;
+        margin-left: 10px;
+    }
+    .years{
+        opacity: 80%;
+        margin: 10px 10px;
+        font-weight:400;
+        /* font-family:Georgia, 'Times New Roman', Times, serif */
+    }
+    .spaninput3{display: flex;
+        border-style:solid;
+        border-width: thin;
+        border-radius: 4%;
+        background-color: #e4f4fc;
+    }
+  
